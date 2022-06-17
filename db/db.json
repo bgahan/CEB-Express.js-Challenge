@@ -1,14 +1,19 @@
 {
   "notes": [
     {
-      "title": "Test Title",
-      "text": "Test text",
+      "title": "Grocery Shopping",
+      "text": "Eggs\nMilk\nCheese",
       "id": "0"
     },
     {
-      "title": "Buy groceries",
-      "text": "Saturday",
+      "title": "Movies on Friday",
+      "text": "New Marvel movie",
       "id": "1"
+    },
+    {
+      "title": "Presentation",
+      "text": "Due Thursday",
+      "id": "2"
     }
   ]
 }

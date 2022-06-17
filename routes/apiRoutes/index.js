@@ -32,7 +32,15 @@ router.post('/notes', (req, res) => {
 
 // delete a note
 router.delete('/notes/:id', (req, res) => {
-     res.json(notes);
+     const id = req.params.id;
+     
+     notes.map((element, index) => {
+          if (element.id == id) {
+              const note = element
+              notes.splice(index, 1)
+              return res.json(note);
+          }
+      })
 });
 
 module.exports = router;
